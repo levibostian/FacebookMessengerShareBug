@@ -1,0 +1,64 @@
+PODS:
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.39.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.39.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.39.0):
+    - FBSDKCoreKit
+
+DEPENDENCIES:
+  - FacebookCore (~> 0.5.0)
+  - FacebookLogin (~> 0.5.0)
+  - FacebookShare (~> 0.5.0)
+  - FBSDKCoreKit (from `https://github.com/facebook/facebook-objc-sdk.git`, branch `master`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKLoginKit
+    - FBSDKShareKit
+
+EXTERNAL SOURCES:
+  FBSDKCoreKit:
+    :branch: master
+    :git: https://github.com/facebook/facebook-objc-sdk.git
+
+CHECKOUT OPTIONS:
+  FBSDKCoreKit:
+    :commit: 075e6368ec6d0f4902056ebcc3b625f25225ba40
+    :git: https://github.com/facebook/facebook-objc-sdk.git
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: 5aa4a666fe80c12621fb8d6214bfdbd18d3b5a88
+  FBSDKLoginKit: 30ba5039a2c53d65a75103889bc2deebdacd5a1f
+  FBSDKShareKit: 5a0021c30abb64df9eeba87351dd8a627874543b
+
+PODFILE CHECKSUM: c3505a9b753d3a6332411f36f8a3e0e53da5d05a
+
+COCOAPODS: 1.5.3
